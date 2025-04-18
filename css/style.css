@@ -108,7 +108,7 @@ header {
     display: flex;
     align-content: center;
     min-height: auto;
-    background: #ffe16a84;
+    background: #ffdb586c;
     overflow: hidden;
 }
 
@@ -124,6 +124,16 @@ header {
     margin-bottom: 20px;
 }
 
+.rectangle {
+    background: #691b9ace;
+    padding: 10px;
+}
+
+.rectangle a{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
 .whoweare {
     display: flex;
     align-content: center;
