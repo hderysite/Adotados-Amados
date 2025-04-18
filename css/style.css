@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F5F5F5;
+    box-sizing: border-box ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+}
+
+.logo img {
+    height: 100px;
+    width: auto; 
+    transition: transform 0.3s ease;
+    object-fit: contain; /* Garante que a imagem não distorça */
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #6A1B9A;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #F8A836;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F8A836;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.welcome{
+    flex: 1;
+    height: auto;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome p{
+    text-align: justify;
+}
+
+.imagem_png {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem_png img{
+    max-width: 100%;
+    height: auto;
+}
+
+.home {
+    display: flex;
+    align-content: center;
+    min-height: auto;
+    background: #ffe16a84;
+    overflow: hidden;
+}
+
+.home .welcome h1{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #6A1B9A;
+}
+
+.home .welcome p{
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.whoweare {
+    display: flex;
+    align-content: center;
+    min-height: auto;
+    overflow: hidden;
+}
+
+.whoareyou h1{
+    font-size: 2.2em;
+    text-align: center;
+} 
