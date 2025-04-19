@@ -119,9 +119,11 @@ header {
 
 .dogM-adoption {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-    gap: 24px;
-    padding: 20px;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-items: center;
     margin-top: 60px;
 }
@@ -187,7 +189,7 @@ header {
 }
   
 .modal img {
-    width: 200px;
+    width: 250px;
     max-width: 100%;
     border-radius: 8px;
 }
@@ -195,6 +197,11 @@ header {
 .modal-info {
     flex: 1;
     min-width: 250px;
+}
+
+.modal h5 {
+    color: #F8A836;
+    padding-top: 20px;
 }
   
 .modal h2 {
