@@ -176,9 +176,6 @@ header {
 }
 
 .whoweare a {
-    display: block; /* Faz o botão ocupar linha própria */
-    margin: 30px auto 0; /* Espaço superior + centralização */
-    width: fit-content; /* Largura ajustada ao texto */
     display: block; 
     margin: 30px auto 0; 
     width: fit-content; 
@@ -329,18 +326,6 @@ header {
     font-size: 14px;
     line-height: 20px;
     color: #666666;
-.go-corner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    background-color: #00838d;
-    border-radius: 0 4px 0 32px;
 }
 
 .card {
