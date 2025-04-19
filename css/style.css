@@ -157,7 +157,7 @@ header {
     margin: 80px 0 40px 0;
     font-size: 2.5rem;
     font-family: var(--font-adotado);
-    color: #F8A836;
+    color: #6A1B9A;
 }
 
 .whoweare .textabout p{
@@ -172,7 +172,7 @@ header {
     margin: 30px auto 0; /* Espaço superior + centralização */
     width: fit-content; /* Largura ajustada ao texto */
     padding: 12px 25px;
-    background-color: #6A1B9A;
+    background-color: #F8A836;
     color: white;
     border: none;
     border-radius: 30px;
@@ -183,7 +183,7 @@ header {
 }
 
 .whoweare a:hover {
-    background-color: #F8A836;
+    background-color: #6A1B9A;
 }
 
 .pawas_dogs, .pawas_cats {
@@ -195,13 +195,13 @@ header {
 .pawas_dogs h1 {
     font-size: 2.5rem;
     margin: 80px 0 10px;
-    color: #F8A836;
+    color: #6A1B9A;
     font-family: var(--font-adotado);
 }
   
 .pawas_dogs h3 {
     font-size: 2.2em;
-    margin: 30px 0 5px;
+    margin: 30px 0 25px;
 }
   
 .pawas_cats h3 {
@@ -215,7 +215,7 @@ header {
 
 .pawas_cats p span {
     text-decoration: underline;
-    text-decoration-color: #6A1B9A;
+    text-decoration-color: #F8A836;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
 }
@@ -225,7 +225,7 @@ header {
     height: 30px;
     vertical-align: middle;
     margin-right: 8px;
-  }
+}
 
 .image-grid {
     display: flex;
@@ -268,7 +268,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #691b9aa8;
+    background: #f8a736bb;
     color: white;
     padding: 10px;
     transform: translateY(100%);
@@ -284,3 +284,98 @@ header {
     margin: 0;
     font-size: 2em;
 }
+
+.title_cards h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #6A1B9A;
+    margin: 50px 0 40px 0;
+}
+
+.card-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h3 {
+    color: #262626;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.card p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #666666;
+
+    &.text {
+        font-size: 14px;
+    }
+}
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #00838d;
+    border-radius: 0 4px 0 32px;
+}
+
+.card {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    background-color: #e1f0f3;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #F8A836;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.3s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+}
+  
+.card:hover {
+    p {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+}
+
+  
