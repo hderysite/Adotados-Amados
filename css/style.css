@@ -21,6 +21,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Cabeçalho - navegação */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +32,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 10;
     height: 80px;
 }
 
@@ -80,6 +82,8 @@ header {
 .navbar a:hover::after {
     width: 100%;
 }
+
+/* Parte inicial do site */
 
 .about {
     display: flex;
@@ -142,10 +146,14 @@ header {
     text-decoration-thickness: 2px;
 }
 
+/* Divisória*/
+
 .rectangle {
     background: #6A1B9A;
     padding: 16px;
 }
+
+/* Segunda parte - Quem somos */
 
 .whoweare {
     min-height: auto;
@@ -171,6 +179,9 @@ header {
     display: block; /* Faz o botão ocupar linha própria */
     margin: 30px auto 0; /* Espaço superior + centralização */
     width: fit-content; /* Largura ajustada ao texto */
+    display: block; 
+    margin: 30px auto 0; 
+    width: fit-content; 
     padding: 12px 25px;
     background-color: #F8A836;
     color: white;
@@ -185,6 +196,8 @@ header {
 .whoweare a:hover {
     background-color: #6A1B9A;
 }
+
+/* Terceira-Quarta parte - Cachorros e gatos */
 
 .pawas_dogs, .pawas_cats {
     min-height: auto;
@@ -245,6 +258,7 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+    cursor: pointer;
 }
   
 .image-card img {
@@ -256,7 +270,7 @@ header {
 }
   
 .image-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(1.03);
 }
   
 .image-card:hover img {
@@ -285,6 +299,8 @@ header {
     font-size: 2em;
 }
 
+/* Quinta parte - Por que Adotar - construção de cards explicativos */
+
 .title_cards h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -296,13 +312,13 @@ header {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .card h3 {
-    color: #262626;
+    color: #333333;
     font-size: 17px;
     line-height: 24px;
     font-weight: 700;
@@ -310,16 +326,9 @@ header {
 }
 
 .card p {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 14px;
     line-height: 20px;
     color: #666666;
-
-    &.text {
-        font-size: 14px;
-    }
-}
-
 .go-corner {
     display: flex;
     align-items: center;
@@ -335,14 +344,12 @@ header {
 }
 
 .card {
-    display: block;
     position: relative;
     max-width: 262px;
     background-color: #e1f0f3;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
-    text-decoration: none;
     z-index: 0;
     overflow: hidden;
   
@@ -357,7 +364,6 @@ header {
       width: 32px;
       border-radius: 32px;
       transform: scale(1);
-      transform-origin: 50% 50%;
       transition: transform 0.3s ease-out;
     }
   
@@ -378,4 +384,97 @@ header {
     }
 }
 
-  
+/* Rodapá do site */
+
+.footer {
+    background-color: #6A1B9A;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1 1 300px;
+    margin: 20px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    border-bottom: 2px solid #F8A836;
+    padding-bottom: 5px;
+}
+
+.footer-column p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-menu li a:hover {
+    color: #F8A836;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #F8A836;
+}
+
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-contact-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+}
+
+.social-contact-item:hover {
+    color: #F8A836;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    color: #ddd;
+}
+
+.footer .footer-bottom img{
+    max-width: 90px;
+}
