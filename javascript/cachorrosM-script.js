@@ -1,4 +1,5 @@
 function AbrirModal(nome, idade, status, historia, modo, imagem) {
+
     document.getElementById('modal-nome').textContent = nome;
     document.getElementById('modal-idade').textContent = idade;
     document.getElementById('modal-status').textContent = status;
