@@ -14,12 +14,16 @@ body {
     box-sizing: border-box ;
 }
 
-body.machos .dog-card {
+body.machos .animal-card {
     background-color: #e1f0f3;
 }
 
-body.filhotes .dog-card {
+body.filhotes .animal-card {
     background-color: #dec9f0;
+}
+
+body.fêmeas .animal-card {
+    background-color: #fbc4d8;
 }
 
 * {
