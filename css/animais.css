@@ -18,6 +18,10 @@ body.machos .dogM-card {
     background-color: #e1f0f3;
 }
 
+body.filhotes .dogF-card {
+    background-color: #dec9f0;
+}
+
 * {
     margin: 0;
     padding: 0;
