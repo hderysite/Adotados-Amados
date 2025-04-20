@@ -14,6 +14,10 @@ body {
     box-sizing: border-box ;
 }
 
+body.machos .dogM-card {
+    background-color: #e1f0f3;
+}
+
 * {
     margin: 0;
     padding: 0;
