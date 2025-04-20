@@ -218,8 +218,8 @@ header {
   
 .close {
     position: absolute;
-    top: 10px;
-    right: 40px;
+    top: 5px;
+    right: 20px;
     font-size: 40px;
     color: #6A1B9A;
     cursor: pointer;
@@ -227,4 +227,40 @@ header {
   
 .close:hover {
     color: #f8a836;
+}
+
+.adopt-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #6A1B9A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.adopt-button:hover {
+    background-color: #F8A836;
+}
+
+.button {
+    text-align: center;
+    margin: 10px 0 100px;
+}
+
+.button button {
+    background-color: #6A1B9A;
+    color: white;
+    border: none;
+    padding: 25px 70px;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #F8A836;
 }
