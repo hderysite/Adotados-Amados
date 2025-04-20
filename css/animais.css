@@ -14,11 +14,11 @@ body {
     box-sizing: border-box ;
 }
 
-body.machos .dogM-card {
+body.machos .dog-card {
     background-color: #e1f0f3;
 }
 
-body.filhotes .dogF-card {
+body.filhotes .dog-card {
     background-color: #dec9f0;
 }
 
@@ -134,7 +134,7 @@ header {
 
 /* Estrutura da adoção dos cachorros machos */
 
-.dogM-adoption {
+.dog-adoption {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
@@ -145,7 +145,7 @@ header {
     margin-top: 60px;
 }
   
-.dogM-card {
+.dog-card {
     width: 100%;
     max-width: 250px;
     background-color: #e1f0f3;
@@ -156,24 +156,24 @@ header {
     transition: transform 0.3s ease-in-out;
 }
   
-.dogM-card:hover {
+.dog-card:hover {
     transform: scale(1.05);
 }
   
-.dogM-card img {
+.dog-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-.dogM-card h3 {
+.dog-card h3 {
     font-size: 18px;
     margin-top: 10px;
     color: #6A1B9A;
     font-weight: 700;
 }
   
-  .dogM-card p {
+  .dog-card p {
     font-size: 14px;
     color: #666;
 }
@@ -268,12 +268,12 @@ header {
     background-color: #F8A836;
 }
 
+/* Botão fora do modal (página inicial) */
+
 .button {
     text-align: center;
     margin: 20px 0 100px;
 }
-
-/* Botão fora do modal (página inicial) */
 
 .button button {
     background-color: #6A1B9A;
