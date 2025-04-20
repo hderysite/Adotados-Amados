@@ -105,6 +105,11 @@ header {
     color: #333333;
 }
 
+.breadcrumb a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F8A836;
+}
+
 .breadcrumb span {
     color: #F8A836;
     font-weight: 700;
@@ -134,7 +139,7 @@ header {
 
 /* Estrutura da adoção dos cachorros machos */
 
-.dog-adoption {
+.animal-adoption {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
@@ -145,7 +150,7 @@ header {
     margin-top: 60px;
 }
   
-.dog-card {
+.animal-card {
     width: 100%;
     max-width: 250px;
     background-color: #e1f0f3;
@@ -156,24 +161,24 @@ header {
     transition: transform 0.3s ease-in-out;
 }
   
-.dog-card:hover {
+.animal-card:hover {
     transform: scale(1.05);
 }
   
-.dog-card img {
+.animal-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-.dog-card h3 {
+.animal-card h3 {
     font-size: 18px;
     margin-top: 10px;
     color: #6A1B9A;
     font-weight: 700;
 }
   
-  .dog-card p {
+.animal-card p {
     font-size: 14px;
     color: #666;
 }
