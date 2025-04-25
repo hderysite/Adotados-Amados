@@ -179,6 +179,22 @@ h1 {
     padding-right: 5px;
 }
 
+/*Página "COMO AJUDAR"*/
+
+.help p {
+    font-family: var(--font-adotado);
+    color: #F8A836;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 60px;
+    max-width: 1000px;
+}
+
+
+
 .footer {
     background-color: #6A1B9A;
     color: #fff;
