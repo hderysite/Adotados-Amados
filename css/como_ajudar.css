@@ -175,13 +175,53 @@ header {
     background-color: #6A1B9A;
 }
 
+.others {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 280px;
+    margin: auto 100px 80px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 300px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card i {
+    font-size: 40px;
+    color: #F8A836;
+}
+
+.info_other {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.info_other h3 {
+    margin: 0 0 10px 0;
+}
+
 .donate {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
     background-color: #e9e2ec83;
-    margin: 40px 200px;
+    margin: 40px 200px 80px;
     padding: 50px 50px;
     border-radius: 20px;
 }
@@ -205,18 +245,6 @@ header {
     font-weight: 700;
 }
 
-.others {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
-    margin: 50px 100px 80px;
-}
-
-.card {
-    display: flex;
-    
-}
 
 .footer {
     background-color: #6A1B9A;
