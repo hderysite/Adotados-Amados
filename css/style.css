@@ -463,3 +463,176 @@ header {
 .footer .footer-bottom img{
     max-width: 90px;
 }
+
+.footer-mobile {
+    display: none;
+    background-color: #6A1B9A;
+    color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-mobile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-mobile-content img {
+    max-width: 80px;
+    margin: 0;
+    position: relative;
+    top: 12px;
+}
+
+.footer-mobile-social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer-mobile-social a {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-mobile-social a:hover {
+    color: #F8A836;
+}
+
+.footer-mobile p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        position: fixed; 
+        width: 100%;
+        z-index: 1000;
+        background: white;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        margin-left: 10px; 
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 40px;
+        background: none;
+        border: none;
+        color: #6A1B9A;
+        cursor: pointer;
+        z-index: 1001;
+        margin-right: 20px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100vw;
+        background: rgba(255, 255, 255, 0.849);
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+        transition: height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        padding-right: 1.5rem;
+    }
+
+    .navbar.open {
+        height: auto;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 8px 0;
+        color: #F8A836;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whoweare .textabout p {
+        padding: 0 1rem; /* ou 16px */
+      }
+
+      .welcome {
+        padding-top: 100px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .textabout {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pawas_dogs h1, 
+    .pawas_dogs h3, 
+    .pawas_cats h3 {
+        font-size: 1.8rem;
+    }
+
+    .caption {
+        transform: translateY(0);
+        transition: none;
+    }
+
+    .image-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-card:hover .caption {
+        transform: translateY(0);
+    }
+
+    .title_cards h1 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+    }
+
+
+    .footer-mobile-content {
+        margin-bottom: 15px;
+    }
+
+    .footer-mobile-social {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 10px;
+    }
+}
