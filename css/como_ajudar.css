@@ -441,14 +441,20 @@ header {
         text-align: right;
     }
 
+    body {
+        padding-top: 80px;
+    }
+
     .breadcrumb {
         font-size: 14px;
-        margin: 20px;
+        margin: 20px 20px 0 20px;
         padding: 5px 15px;
     }
 
     .help h1 {
         font-size: 2rem;
+        margin-top: 40px;
+
     }
 
     .help p {

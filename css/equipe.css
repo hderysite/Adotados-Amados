@@ -421,14 +421,14 @@ h1 {
 
     .text {
         flex-direction: column;
-        gap: 50px;
+        gap: 10px;
         margin: 30px 50px;
     }
 
     .text_left,
     .text_right {
         min-width: auto;
-        text-align: center;
+
     }
 
     .text p {
