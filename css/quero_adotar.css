@@ -400,6 +400,7 @@ header {
         text-align: left;
     }
 
+    /*
     .info_residence {
         flex-direction: row; 
         align-items: center;
@@ -416,6 +417,20 @@ header {
 
     .text_residence {
         flex: 1;
+    }
+
+    */
+
+    .info_residence {
+        flex-direction: column; /* Empilhando os elementos */
+        align-items: center;
+        margin: 40px 20px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .info_residence i {
+        font-size: 80px;
     }
 
     .footer {
