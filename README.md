@@ -20,7 +20,7 @@ Abaixo, um GIF mostrando a navegação pela **página inicial** que inclui: apre
 ### Menu de Navegação
 
 Neste GIF, é possível visualizar a navegação pelas páginas que se encontram no menu superior:
-- **Início** (página de apresentação do site)
+- **Início** (página inicial do site)
 - **Quem Somos** (história completa da instituição)  
 - **Como Ajudar** (opções de apadrinhamento, doações, voluntariado, métodos de pagamento)  
 - **Quero Adotar** (questionário com perguntas que devem ser respondidas e enviadas via mensagem direta no Instagram)
@@ -30,7 +30,7 @@ Neste GIF, é possível visualizar a navegação pelas páginas que se encontram
 
 ---
 
-## 🖥️ Tecnologias utilizadas
+## ⚙️ Tecnologias utilizadas
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
