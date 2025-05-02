@@ -2,23 +2,22 @@
 
 **Adotados & Amados** é uma iniciativa formada por protetores independentes que atuam sem apoio institucional e sem recursos fixos. Desde 2015, ajudam **mais de 10 mil animais** a encontrarem um lar amoroso! Seu trabalho é movido por amor, dedicação e muito esforço diário.
 
+<br> 
+
+**O site foi desenvolvido para divulgar a causa, apresentar os animais disponíveis para adoção e facilitar o apoio de quem deseja ajudar.**
+- Totalmente responsivo, garantindo uma boa navegação também pelo celular.
+
 ---
 
-## 🌐 Sobre o site
+## 🖥️ Demonstração do site
 
-O site foi desenvolvido para divulgar a causa, apresentar os animais disponíveis para adoção e facilitar o apoio de quem deseja ajudar.
-
----
-
-## 📸 Demonstração do site
-
-### 🏠 Página Inicial
+### Página Inicial
 
 Abaixo, um GIF mostrando a navegação pela **página inicial** que inclui: apresentação do site, resumo da história da organização, cards que apresentam os animais para adoção (cachorros e gatos), seção explicativa da importância da adoção e, por fim, o rodapé.
 
 ![GIF da Página Inicial](https://github.com/hderysite/Adotados-Amados/raw/main/M%C3%ADdia/Read%20Me/GIF_inicio.gif)
 
-### ☰ Menu de Navegação (Header)
+### Menu de Navegação
 
 Neste GIF, é possível visualizar a navegação pelas páginas que se encontram no menu superior:
 - **Início** (página de apresentação do site)
@@ -43,7 +42,7 @@ Neste GIF, é possível visualizar a navegação pelas páginas que se encontram
 
 ## 📚 Projeto Acadêmico
 
-Este site foi desenvolvido como parte de um trabalho extensivo na disciplina de Programação Web. O tema abordado é "Site Socialmente Responsivo", e a escolha da instituição Adotados & Amados foi feita para apoiar a causa da adoção de animais!
+Este site foi desenvolvido como parte de um trabalho extensivo na disciplina de Programação Web. O tema abordado é "Site Socialmente Responsivo", e a escolha da instituição Adotados & Amados foi feita para apoiar a causa da adoção de animais.
 
 ---
 
