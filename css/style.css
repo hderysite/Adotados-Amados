@@ -477,6 +477,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .footer-mobile-content img {
@@ -489,7 +490,8 @@ header {
 .footer-mobile-social {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 20px;
+    margin-top: 10px;
 }
 
 .footer-mobile-social a {
@@ -622,17 +624,5 @@ header {
 
     .footer-mobile {
         display: block;
-    }
-
-
-    .footer-mobile-content {
-        margin-bottom: 15px;
-    }
-
-    .footer-mobile-social {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 10px;
     }
 }
