@@ -600,6 +600,12 @@ header {
         font-size: 1.8rem;
     }
 
+    .pawas_cats p {
+        padding: 0 1rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
     .caption {
         transform: translateY(0);
         transition: none;
