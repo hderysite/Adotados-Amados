@@ -42,7 +42,7 @@ Neste GIF, é possível visualizar a navegação pelas páginas que se encontram
 
 ## 📚 Projeto Acadêmico
 
-Este site foi desenvolvido como parte de um trabalho extensivo na disciplina de Programação Web. O tema abordado é "Site Socialmente Responsivo", e a escolha da instituição Adotados & Amados foi feita para apoiar a causa da adoção de animais.
+Este site foi desenvolvido como parte de um trabalho extensivo na disciplina de Programação Web. O tema abordado é "Site Socialmente Positivo", e a escolha da instituição Adotados & Amados foi feita para apoiar a causa da adoção de animais.
 
 ---
 
